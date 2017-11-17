@@ -2,11 +2,9 @@
 
 <div class="inner">
 
-# Ajay Dhande
+# Chetan Tete
 
-## Ruby On Rails ...!
-
-[<small>My Published projects on</small>GitHub](https://github.com/AjayDhande)</div>
+## Ruby On Rails Developer at Cryptex Technologies...!
 
 </header>
 
@@ -44,16 +42,16 @@ I started carrier in IT profession with Ruby On Rails with one of start up compa
 
 ### Contact:
 
-Email: [ersumitmunot@gmail.com](#)  
-@[Stack-overflow](#), @[GitHub](https://github.com/AjayDhande), @[Google+](#), @[LinkedIn](#), @[Facebook](#), @[Twitter](#)  
-Skype Id: <a>Ajay Dhande</a>  
-Phone: <a>+91-1234567890</a>  
+Email: [chetan.tete@gmail.com](#)  
+@[Stack-overflow](#), @[GitHub](https://github.com/chetantete), @[Google+](#), @[LinkedIn](#), @[Facebook](#), @[Twitter](#)  
+Skype Id: <a>chetantete</a>  
+Phone: <a>+91-8888-304-134</a>  
 
 </section>
 
 <aside id="sidebar">[<small>Resume</small> My Info](#) [<small>Projects</small> My Work](#) [<small>Contact Me</small> Connect](#)
 
-[](https://github.com/AjayDhande/)is maintained by [Ajay Dhande](https://github.com/AjayDhande).
+[](https://github.com/chetantete/)is maintained by [Chetan Tete](https://github.com/chetantete).
 
 </aside>
 
