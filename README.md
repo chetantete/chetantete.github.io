@@ -20,7 +20,7 @@ Here is short introduction about me:
 
 ### Academics:
 
-I completed, Information Technologies & Engineering graduation on May 2016 from Nagpur University. I am currently working at Cryptex Technologies Pvt Ltd, Nagpur.  
+I completed, Information Technologies & Engineering graduation on May 2016 from Nagpur University. I am currently working at Cryptex Technologies Pvt Ltd, Nagpur from 21st March 2017.  
 
 ### Professional Skills:
 
@@ -28,7 +28,8 @@ I completed, Information Technologies & Engineering graduation on May 2016 from 
     <li>Ruby On Rails</li>
     <li>JavaScript</li>
     <li>jQuery</li>
-    <li>AJAX</li>    
+    <li>AJAX</li>   
+    <li>ReactJS</li>
     <li>HTML</li>
     <li>CSS</li>
 
@@ -36,10 +37,10 @@ I completed, Information Technologies & Engineering graduation on May 2016 from 
 
 ### Contact:
 
-Email: [chetan.tete@gmail.com](#)  
+Email: [chetan.tete27@gmail.com](#)  
 @[Stack-overflow](#), @[GitHub](https://github.com/chetantete), @[Google+](#), @[LinkedIn](#), @[Facebook](#), @[Twitter](#)  
 Skype Id: <a>chetantete</a>  
-Phone: <a>+91-8888-304-134</a>  
+Phone: <a>+91-902-113-0626</a>  
 
 </section>
 
