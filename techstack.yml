@@ -1,11 +1,11 @@
 repo_name: chetantete/chetantete.github.io
-report_id: 40e50f798e173b5925bfefecdeed8f5a
+report_id: ee8800694eb3ddebc05a934fca1db3c7
 repo_type: Public
-timestamp: '2023-11-09T08:04:00+00:00'
+timestamp: '2023-11-09T08:11:46+00:00'
 requested_by: chetantete
 provider: github
 branch: master
-detected_tools_count: 42
+detected_tools_count: 41
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -98,17 +98,6 @@ tools:
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
-- name: Istio
-  description: Open platform to connect, manage, and secure microservices, by Google,
-    IBM, and Lyft
-  website_url: https://istio.io/
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Microservices Tools
-  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source: techstack.yml
 - name: Puma
   description: A Modern, Concurrent Web Server for Ruby
   website_url: http://puma.io/
@@ -207,11 +196,15 @@ tools:
   sub_category: User Management and Authentication
   image_url: https://img.stackshare.io/service/1432/devise.png
   detection_source: Gemfile
-- name: NPM Trends
-  website_url: https://www.npmtrends.com/
-  open_source: false
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
   hosted_saas: false
-  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
   detection_source: package.json
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
