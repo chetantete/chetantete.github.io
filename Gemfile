@@ -4,7 +4,12 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-
+gem 'bootsnap'
+gem 'acts-as-taggable-on'
+gem 'acts_as_votable'
+gem 'audited', '~> 5.0'
+gem 'buffer', github: 'bufferapp/buffer-ruby'
+gem 'clearbit', '~> 0.3.3'
 gem 'pg'
 gem 'carrierwave'
 gem 'chronic'
