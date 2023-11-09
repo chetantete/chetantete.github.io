@@ -236,32 +236,32 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[acts-as-taggable-on](https://rubygems.org/acts-as-taggable-on)|N/A|N/A|N/A |MIT|N/A|
-|[byebug](https://rubygems.org/byebug)|N/A|N/A|N/A |BSD-2-Clause|N/A|
-|[capybara](https://rubygems.org/capybara)|v2.13|N/A|N/A |MIT|N/A|
-|[chronic](https://rubygems.org/chronic)|N/A|N/A|N/A |MIT|N/A|
-|[coffee-rails](https://rubygems.org/coffee-rails)|v4.2|N/A|N/A |MIT|N/A|
-|[connection_pool](https://rubygems.org/connection_pool)|N/A|N/A|N/A |MIT|N/A|
-|[diffy](https://rubygems.org/diffy)|N/A|N/A|N/A |MIT|N/A|
-|[jbuilder](https://rubygems.org/jbuilder)|v2.5|N/A|N/A |MIT|N/A|
-|[listen](https://rubygems.org/listen)|v3.0.5|N/A|N/A |MIT|N/A|
-|[pg](https://rubygems.org/pg)|N/A|N/A|N/A |BSD-2-Clause|N/A|
-|[sass-rails](https://rubygems.org/sass-rails)|v5.0|N/A|N/A |MIT|N/A|
-|[selenium-webdriver](https://rubygems.org/selenium-webdriver)|N/A|N/A|N/A |Apache-2.0|N/A|
-|[sqlite3](https://rubygems.org/sqlite3)|N/A|N/A|N/A |BSD-3-Clause|N/A|
-|[turbolinks](https://rubygems.org/turbolinks)|N/A|N/A|N/A |MIT|N/A|
-|[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|N/A|N/A |MIT|N/A|
-|[uglifier](https://rubygems.org/uglifier)|v1.3.0|N/A|N/A |MIT|[CVE-2015-8857](https://github.com/advisories/GHSA-34r7-q49f-h37c) (Critical)|
+|[acts-as-taggable-on](https://rubygems.org/acts-as-taggable-on)|N/A|11/09/23|Chetan Tete |MIT|N/A|
+|[byebug](https://rubygems.org/byebug)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-2-Clause|N/A|
+|[capybara](https://rubygems.org/capybara)|v2.13|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
+|[chronic](https://rubygems.org/chronic)|N/A|10/27/23|Chetan Tete |MIT|N/A|
+|[coffee-rails](https://rubygems.org/coffee-rails)|v4.2|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
+|[connection_pool](https://rubygems.org/connection_pool)|N/A|10/27/23|Chetan Tete |MIT|N/A|
+|[diffy](https://rubygems.org/diffy)|N/A|10/27/23|Chetan Tete |MIT|N/A|
+|[jbuilder](https://rubygems.org/jbuilder)|v2.5|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
+|[listen](https://rubygems.org/listen)|v3.0.5|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
+|[pg](https://rubygems.org/pg)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-2-Clause|N/A|
+|[sass-rails](https://rubygems.org/sass-rails)|v5.0|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
+|[selenium-webdriver](https://rubygems.org/selenium-webdriver)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |Apache-2.0|N/A|
+|[sqlite3](https://rubygems.org/sqlite3)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-3-Clause|N/A|
+|[turbolinks](https://rubygems.org/turbolinks)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
+|[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
+|[uglifier](https://rubygems.org/uglifier)|v1.3.0|11/16/17|chetan.tete@cryptextechnologies.com |MIT|[CVE-2015-8857](https://github.com/advisories/GHSA-34r7-q49f-h37c) (Critical)|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (4)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[async](https://www.npmjs.com/async)|v0.2.10|N/A|N/A |MIT|N/A|
-|[optimist](https://www.npmjs.com/optimist)|v0.6.0|N/A|N/A |MIT,X11|N/A|
-|[request](https://www.npmjs.com/request)|v2.30.0|N/A|N/A |Apache-2.0|[CVE-2023-28155](https://github.com/advisories/GHSA-p8p7-x288-28g6) (Moderate)<br/>[CVE-2017-16026](https://github.com/advisories/GHSA-7xfp-9c55-5vqj) (Moderate)|
-|[split](https://www.npmjs.com/split)|v0.3.0|N/A|N/A |MIT|N/A|
+|[async](https://www.npmjs.com/async)|v0.2.10|06/23/23|Chetan Tete |MIT|N/A|
+|[optimist](https://www.npmjs.com/optimist)|v0.6.0|06/23/23|Chetan Tete |MIT,X11|N/A|
+|[request](https://www.npmjs.com/request)|v2.30.0|06/23/23|Chetan Tete |Apache-2.0|[CVE-2023-28155](https://github.com/advisories/GHSA-p8p7-x288-28g6) (Moderate)<br/>[CVE-2017-16026](https://github.com/advisories/GHSA-7xfp-9c55-5vqj) (Moderate)|
+|[split](https://www.npmjs.com/split)|v0.3.0|06/23/23|Chetan Tete |MIT|N/A|
 
 <br/>
 <div align='center'>
