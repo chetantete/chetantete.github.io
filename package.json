@@ -2,6 +2,7 @@
   "name": "demoApp",
   "private": true,
   "dependencies": { 
+    "axios": "0.8.1",
     "async": "^0.2.10", 
    "npm2es": "~0.4.2", 
    "optimist": "~0.6.0", 
