@@ -4,6 +4,8 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+gem 'sidekiq-cron', '6.0.0'
+gem 'sidekiq-pro', '6.0.0'
 gem 'bootsnap'
 gem 'acts-as-taggable-on'
 gem 'acts_as_votable'
