@@ -2,9 +2,7 @@
 --- Readme.md Snippet without images Start ---
 ## Tech Stack
 chetantete/chetantete.github.io is built on the following main stack:
-- [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [Customer.io](http://customer.io) – Engagement/Lifecycle Marketing
-- [PonyDebugger](https://github.com/square/PonyDebugger) – Mobile Runtime Inspector
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - [PostgreSQL](http://www.postgresql.org/) – Databases
@@ -26,9 +24,7 @@ Full tech stack [here](/techstack.md)
 --- Readme.md Snippet with images Start ---
 ## Tech Stack
 chetantete/chetantete.github.io is built on the following main stack:
-- <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/service/255/default_d02a4b39f7d883e6212131540e656fd000d8d485.png' alt='Customer.io'/> [Customer.io](http://customer.io) – Engagement/Lifecycle Marketing
-- <img width='25' height='25' src='https://img.stackshare.io/service/729/Logo.png' alt='PonyDebugger'/> [PonyDebugger](https://github.com/square/PonyDebugger) – Mobile Runtime Inspector
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
@@ -52,7 +48,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [chetantete/chetantete.github.io](https://github.com/chetantete/chetantete.github.io)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|41<br/>Tools used|11/09/23 <br/>Report generated|
+|39<br/>Tools used|11/20/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -106,7 +102,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/databases.svg'/> Data (2)
+## <img src='https://img.stackshare.io/databases.svg'/> Databases (2)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'>
@@ -127,7 +123,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (6)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (5)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'>
@@ -143,14 +139,6 @@ Full tech stack [here](/techstack.md)
   <sub><a href="http://git-scm.com/">Git</a></sub>
   <br>
   <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
-  <br>
-  <sub><a href="http://puma.io/">Puma</a></sub>
-  <br>
-  <sub>v3.7</sub>
 </td>
 
 <td align='center'>
@@ -180,9 +168,17 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (4)
+## Other (7)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='Bootsnap'>
+  <br>
+  <sub><a href="https://github.com/shopify/bootsnap">Bootsnap</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='CarrierWave'>
   <br>
   <sub><a href="https://github.com/carrierwaveuploader/carrierwave">CarrierWave</a></sub>
@@ -207,27 +203,6 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'>
-  <br>
-  <sub><a href="http://sendgrid.com">Twilio SendGrid</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-</tr>
-</table>
-
-## Other (4)
-<table><tr>
-  <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='Bootsnap'>
-  <br>
-  <sub><a href="https://github.com/shopify/bootsnap">Bootsnap</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1432/devise.png' alt='Devise'>
   <br>
   <sub><a href="https://github.com/plataformatec/devise">Devise</a></sub>
@@ -236,11 +211,11 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/729/Logo.png' alt='PonyDebugger'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
   <br>
-  <sub><a href="https://github.com/square/PonyDebugger">PonyDebugger</a></sub>
+  <sub><a href="http://puma.io/">Puma</a></sub>
   <br>
-  <sub></sub>
+  <sub>v3.7</sub>
 </td>
 
 <td align='center'>
@@ -263,6 +238,7 @@ Full tech stack [here](/techstack.md)
 |:------|:------|:------|:------|:------|:------|
 |[acts-as-taggable-on](https://rubygems.org/acts-as-taggable-on)|N/A|11/09/23|Chetan Tete |MIT|N/A|
 |[byebug](https://rubygems.org/byebug)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-2-Clause|N/A|
+|[capybara](https://rubygems.org/capybara)|v2.13|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[chronic](https://rubygems.org/chronic)|N/A|10/27/23|Chetan Tete |MIT|N/A|
 |[coffee-rails](https://rubygems.org/coffee-rails)|v4.2|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[connection_pool](https://rubygems.org/connection_pool)|N/A|10/27/23|Chetan Tete |MIT|N/A|
@@ -272,7 +248,6 @@ Full tech stack [here](/techstack.md)
 |[pg](https://rubygems.org/pg)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-2-Clause|N/A|
 |[sass-rails](https://rubygems.org/sass-rails)|v5.0|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[selenium-webdriver](https://rubygems.org/selenium-webdriver)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |Apache-2.0|N/A|
-|[spring](https://rubygems.org/spring)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[sqlite3](https://rubygems.org/sqlite3)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-3-Clause|N/A|
 |[turbolinks](https://rubygems.org/turbolinks)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
@@ -291,4 +266,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
