@@ -1,16 +1,16 @@
 repo_name: chetantete/chetantete.github.io
-report_id: 4f06534f2124c1883fe5e0d219266f47
+report_id: 130c4a887eae1e7ca0892e8630a8c5b5
 repo_type: Public
-timestamp: '2023-11-09T08:35:43+00:00'
+timestamp: '2023-11-24T10:09:23+00:00'
 requested_by: chetantete
 provider: github
 branch: master
-detected_tools_count: 41
+detected_tools_count: 45
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
   website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -20,7 +20,7 @@ tools:
   description: A little language that compiles into JavaScript
   website_url: http://coffeescript.org/
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -30,7 +30,7 @@ tools:
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
   website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -40,7 +40,7 @@ tools:
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
   website_url: https://www.ruby-lang.org
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
@@ -51,7 +51,7 @@ tools:
   website_url: http://rubyonrails.org/
   version: 5.1.4
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
@@ -63,7 +63,7 @@ tools:
 - name: PostgreSQL
   description: A powerful, open source object-relational database system
   website_url: http://www.postgresql.org/
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Data Stores
   sub_category: Databases
@@ -76,7 +76,7 @@ tools:
     transactional SQL database engine
   website_url: http://www.sqlite.org/
   open_source: false
-  hosted_saas: true
+  hosted_saas: false
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
@@ -88,7 +88,7 @@ tools:
   website_url: http://jnicklas.github.io/capybara/
   version: '2.13'
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
@@ -100,31 +100,17 @@ tools:
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
-- name: Puma
-  description: A Modern, Concurrent Web Server for Ruby
-  website_url: http://puma.io/
-  version: '3.7'
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Application Hosting
-  sub_category: Web Servers
-  image_url: https://img.stackshare.io/service/1055/favicon.png
-  detection_source_url: Gemfile
-  detection_source: config/puma.rb
-  last_updated_by: chetan.tete@cryptextechnologies.com
-  last_updated_on: 2017-11-16 12:17:37.000000000 Z
 - name: Rails Spring
   description: Rails application preloader
   website_url: https://github.com/rails/spring
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Rails Testing
@@ -154,6 +140,18 @@ tools:
   detection_source: package.json
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
+- name: Bootsnap
+  description: Boot large ruby/rails apps faster, by Shopify
+  website_url: https://github.com/shopify/bootsnap
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ruby Utilities
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: Gemfile
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-11-09 05:54:30.000000000 Z
 - name: CarrierWave
   description: Classier solution for file uploads for Rails, Sinatra and other Ruby
     web frameworks
@@ -170,7 +168,7 @@ tools:
   description: APIs for determining who's behind an email address
   website_url: https://clearbit.com/
   open_source: false
-  hosted_saas: true
+  hosted_saas: false
   category: Application Utilities
   sub_category: Customer Information API
   image_url: https://img.stackshare.io/service/3227/boQMtD4j_400x400.jpg
@@ -182,41 +180,18 @@ tools:
     in-app and more to engage and retain your audience.
   website_url: http://customer.io
   open_source: false
-  hosted_saas: true
+  hosted_saas: false
   category: Support, Sales, and Marketing
   sub_category: Engagement/Lifecycle Marketing
   image_url: https://img.stackshare.io/service/255/default_d02a4b39f7d883e6212131540e656fd000d8d485.png
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
-- name: Twilio SendGrid
-  description: Email Delivery. Simplified.
-  website_url: http://sendgrid.com
-  open_source: false
-  hosted_saas: true
-  category: Communications
-  sub_category: Transactional Email
-  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
-  detection_source: config/environments/production.rb
-  last_updated_by: chetan.tete@cryptextechnologies.com
-  last_updated_on: 2017-11-16 12:17:37.000000000 Z
-- name: Bootsnap
-  description: Boot large ruby/rails apps faster, by Shopify
-  website_url: https://github.com/shopify/bootsnap
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Application Utilities
-  sub_category: Ruby Utilities
-  image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source: Gemfile
-  last_updated_by: Chetan Tete
-  last_updated_on: 2023-11-09 05:54:30.000000000 Z
 - name: Devise
   description: Flexible authentication solution for Rails with Warden
   website_url: https://github.com/plataformatec/devise
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Application Utilities
   sub_category: User Management and Authentication
@@ -224,22 +199,35 @@ tools:
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
-- name: PonyDebugger
-  description: Remote network and data debugging for your native iOS app using Chrome
-    Developer Tools
-  website_url: https://github.com/square/PonyDebugger
-  open_source: true
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 5.0.0
+  license: BSD-3-Clause
+  open_source: false
   hosted_saas: false
-  category: Mobile
-  sub_category: Mobile Runtime Inspector
-  image_url: https://img.stackshare.io/service/729/Logo.png
-  detection_source: package.json
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: Gemfile
+  detection_source: config/puma.rb
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
+- name: Sidekiq
+  description: Simple, efficient background processing for Ruby
+  website_url: http://sidekiq.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/1078/4b7277462dadad85454ab427ce3f0ca7.png
+  detection_source: Gemfile
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-11-17 14:16:40.000000000 Z
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
   website_url: http://lisperator.net/uglifyjs/
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: Javascript Utilities & Libraries
@@ -247,12 +235,26 @@ tools:
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.8.1
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-11-17 14:13:10.000000000 Z
 - name: acts-as-taggable-on
   description: With ActsAsTaggableOn, you can tag a single model on several contexts,
     such as skills, interests, and awards
   package_url: https://rubygems.org/acts-as-taggable-on
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -260,11 +262,23 @@ tools:
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-11-09 05:54:30.000000000 Z
+- name: audited
+  description: Log all changes to your models
+  package_url: https://rubygems.org/audited
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source: Gemfile
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-11-09 05:54:30.000000000 Z
 - name: byebug
   description: Byebug is a Ruby debugger
   package_url: https://rubygems.org/byebug
   license: BSD-2-Clause
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -272,11 +286,25 @@ tools:
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
+- name: capybara
+  description: Capybara is an integration testing tool for rack based web applications
+  package_url: https://rubygems.org/capybara
+  version: '2.13'
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18846/default_0c8d4c4a5aa98fa2cea633a4e17ec7b18bca9a16.png
+  detection_source_url: Gemfile
+  detection_source: Gemfile
+  last_updated_by: chetan.tete@cryptextechnologies.com
+  last_updated_on: 2017-11-16 12:17:37.000000000 Z
 - name: chronic
   description: Chronic is a natural language date/time parser written in pure Ruby
   package_url: https://rubygems.org/chronic
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -289,7 +317,7 @@ tools:
   package_url: https://rubygems.org/coffee-rails
   version: '4.2'
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -302,7 +330,7 @@ tools:
   description: Generic connection pool for Ruby
   package_url: https://rubygems.org/connection_pool
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -314,11 +342,23 @@ tools:
   description: Convenient diffing in ruby
   package_url: https://rubygems.org/diffy
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19134/default_302643c2b99caa1c440c0d4aa23d4230e1cc78e3.png
+  detection_source: Gemfile
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-10-27 10:29:15.000000000 Z
+- name: down
+  description: Robust streaming downloads using Net::HTTP, HTTP.rb or wget
+  package_url: https://rubygems.org/down
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
@@ -327,7 +367,7 @@ tools:
   package_url: https://rubygems.org/jbuilder
   version: '2.5'
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -342,7 +382,7 @@ tools:
   package_url: https://rubygems.org/listen
   version: 3.0.5
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -355,7 +395,7 @@ tools:
   description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
   package_url: https://rubygems.org/pg
   license: BSD-2-Clause
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -368,7 +408,7 @@ tools:
   package_url: https://rubygems.org/sass-rails
   version: '5.0'
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -381,7 +421,7 @@ tools:
   description: WebDriver is a tool for writing automated tests of websites
   package_url: https://rubygems.org/selenium-webdriver
   license: Apache-2.0
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -389,24 +429,24 @@ tools:
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
-- name: spring
-  description: Preloads your application so things like console
-  package_url: https://rubygems.org/spring
+- name: sidekiq-cron
+  description: Enables to set jobs to be run in specified time
+  package_url: https://rubygems.org/sidekiq-cron
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  image_url: https://img.stackshare.io/package/rubygems/image.png
   detection_source: Gemfile
-  last_updated_by: chetan.tete@cryptextechnologies.com
-  last_updated_on: 2017-11-16 12:17:37.000000000 Z
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-11-17 14:16:40.000000000 Z
 - name: sqlite3
   description: This module allows Ruby programs to interface with the SQLite3 database
     engine
   package_url: https://rubygems.org/sqlite3
   license: BSD-3-Clause
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -418,7 +458,7 @@ tools:
   description: Rails engine for Turbolinks 5 support
   package_url: https://rubygems.org/turbolinks
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -431,7 +471,7 @@ tools:
     as Ruby modules for use with TZInfo
   package_url: https://rubygems.org/tzinfo-data
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -445,7 +485,7 @@ tools:
   package_url: https://rubygems.org/uglifier
   version: 1.3.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
@@ -461,12 +501,24 @@ tools:
     detected_date: Mar 28
     severity: critical
     first_patched: 2.7.2
+- name: web-console
+  description: A debugging tool for your Ruby on Rails applications
+  package_url: https://rubygems.org/web-console
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source: Gemfile
+  last_updated_by: chetan.tete@cryptextechnologies.com
+  last_updated_on: 2017-11-16 12:17:37.000000000 Z
 - name: async
   description: Higher-order functions and common patterns for asynchronous code
   package_url: https://www.npmjs.com/async
-  version: 0.2.10
+  version: 2.0.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
@@ -474,13 +526,20 @@ tools:
   detection_source_url: package.json
   detection_source: package.json
   last_updated_by: Chetan Tete
-  last_updated_on: 2023-06-23 16:37:50.000000000 Z
+  last_updated_on: 2023-11-17 14:26:35.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in async
+    cve_id: CVE-2021-43138
+    cve_url: https://github.com/advisories/GHSA-fwr7-v2mv-hh25
+    detected_date: Apr 13
+    severity: high
+    first_patched: 2.6.4
 - name: optimist
   description: Light-weight option parsing with an argv hash
   package_url: https://www.npmjs.com/optimist
   version: 0.6.0
   license: MIT,X11
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
@@ -494,7 +553,7 @@ tools:
   package_url: https://www.npmjs.com/request
   version: 2.30.0
   license: Apache-2.0
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
@@ -509,7 +568,7 @@ tools:
     cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
     detected_date: Mar 17
     severity: moderate
-    first_patched: 
+    first_patched:
   - name: Remote Memory Exposure in request
     cve_id: CVE-2017-16026
     cve_url: https://github.com/advisories/GHSA-7xfp-9c55-5vqj
@@ -521,7 +580,7 @@ tools:
   package_url: https://www.npmjs.com/split
   version: 0.3.0
   license: MIT
-  open_source: true
+  open_source: false
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
