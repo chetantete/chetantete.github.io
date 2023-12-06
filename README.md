@@ -5,7 +5,7 @@
 # Chetan Tete
 
 
-## Ruby On Rails Developer at Cryptex Technologies...!
+## Ruby On Rails Developer at Bacancy...!
 
 </header>
 
