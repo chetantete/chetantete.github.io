@@ -5,6 +5,7 @@ chetantete/chetantete.github.io is built on the following main stack:
 
 - [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [Customer.io](http://customer.io) – Engagement/Lifecycle Marketing
+- [Buffer](https://bufferapp.com/) – Social Media Tools
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - [PostgreSQL](http://www.postgresql.org/) – Databases
@@ -22,6 +23,7 @@ chetantete/chetantete.github.io is built on the following main stack:
 - [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 - [Split](http://www.split.io) – Feature Flags Management
 - [Bootsnap](https://github.com/shopify/bootsnap) – Ruby Utilities
+- [Istio](https://istio.io/) – Microservices Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -33,6 +35,7 @@ chetantete/chetantete.github.io is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/service/255/default_d02a4b39f7d883e6212131540e656fd000d8d485.png' alt='Customer.io'/> [Customer.io](http://customer.io) – Engagement/Lifecycle Marketing
+- <img width='25' height='25' src='https://img.stackshare.io/service/825/hnc3q-7x.jpg' alt='Buffer'/> [Buffer](https://bufferapp.com/) – Social Media Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
@@ -50,6 +53,7 @@ chetantete/chetantete.github.io is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/6588/default_2be28faff45ce2d9a308cf9c36820697303a7c11.jpg' alt='Split'/> [Split](http://www.split.io) – Feature Flags Management
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Bootsnap'/> [Bootsnap](https://github.com/shopify/bootsnap) – Ruby Utilities
+- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -60,7 +64,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [chetantete/chetantete.github.io](https://github.com/chetantete/chetantete.github.io)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|47<br/>Tools used|12/06/23 <br/>Report generated|
+|45<br/>Tools used|12/06/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -143,7 +147,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (7)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (8)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'>
@@ -157,6 +161,14 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
   <br>
   <sub><a href="http://git-scm.com/">Git</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'>
+  <br>
+  <sub><a href="https://istio.io/">Istio</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -204,9 +216,17 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (4)
+## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (5)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/825/hnc3q-7x.jpg' alt='Buffer'>
+  <br>
+  <sub><a href="https://bufferapp.com/">Buffer</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='CarrierWave'>
   <br>
   <sub><a href="https://github.com/carrierwaveuploader/carrierwave">CarrierWave</a></sub>
@@ -260,9 +280,9 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/2270/no-img-open-source.png' alt='HTML'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/12294/empty-logo-square.png' alt='NPM Trends'>
   <br>
-  <sub><a href="http://">HTML</a></sub>
+  <sub><a href="https://www.npmtrends.com/">NPM Trends</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -287,32 +307,28 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (23)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (19)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (20)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (16)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[acts-as-taggable-on](https://rubygems.org/acts-as-taggable-on)|N/A|11/09/23|Chetan Tete |MIT|N/A|
-|[audited](https://rubygems.org/audited)|v5.0|11/09/23|Chetan Tete |MIT|[](https://github.com/advisories/GHSA-hjp3-5g2q-7jww) (Low)|
 |[byebug](https://rubygems.org/byebug)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-2-Clause|N/A|
 |[chronic](https://rubygems.org/chronic)|N/A|10/27/23|Chetan Tete |MIT|N/A|
 |[coffee-rails](https://rubygems.org/coffee-rails)|v4.2|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[connection_pool](https://rubygems.org/connection_pool)|N/A|10/27/23|Chetan Tete |MIT|N/A|
 |[diffy](https://rubygems.org/diffy)|N/A|10/27/23|Chetan Tete |MIT|N/A|
-|[down](https://rubygems.org/down)|N/A|10/27/23|Chetan Tete |MIT|N/A|
 |[jbuilder](https://rubygems.org/jbuilder)|v2.5|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[listen](https://rubygems.org/listen)|v3.0.5|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[pg](https://rubygems.org/pg)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-2-Clause|N/A|
 |[sass-rails](https://rubygems.org/sass-rails)|v5.0|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[selenium-webdriver](https://rubygems.org/selenium-webdriver)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |Apache-2.0|N/A|
-|[sidekiq-cron](https://rubygems.org/sidekiq-cron)|v6.0.0|11/17/23|Chetan Tete |MIT|N/A|
 |[spring](https://rubygems.org/spring)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[sqlite3](https://rubygems.org/sqlite3)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |BSD-3-Clause|N/A|
 |[turbolinks](https://rubygems.org/turbolinks)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 |[uglifier](https://rubygems.org/uglifier)|v1.3.0|11/16/17|chetan.tete@cryptextechnologies.com |MIT|[CVE-2015-8857](https://github.com/advisories/GHSA-34r7-q49f-h37c) (Critical)|
-|[web-console](https://rubygems.org/web-console)|v3.3.0|11/16/17|chetan.tete@cryptextechnologies.com |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (3)
