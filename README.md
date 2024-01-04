@@ -4,8 +4,8 @@
 
 # Chetan Tete
 
-## Ruby On Rails Developer at Bacancy...!
 
+## Ruby On Rails Developer at Bacancy...!
 
 </header>
 
