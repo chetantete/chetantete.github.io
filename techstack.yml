@@ -1,11 +1,12 @@
 repo_name: chetantete/chetantete.github.io
-report_id: 4f06534f2124c1883fe5e0d219266f47
+report_id: ec846a991c8b1c22b7fc6e0019c166c1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T08:35:43+00:00'
+timestamp: '2024-01-04T13:17:00+00:00'
 requested_by: chetantete
 provider: github
 branch: master
-detected_tools_count: 41
+detected_tools_count: 45
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io
   detection_source: Repo Metadata
 - name: CoffeeScript
   description: A little language that compiles into JavaScript
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/chetantete/chetantete.github.io
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io
   detection_source: Repo Metadata
 - name: Rails
   description: Web development that doesn't hurt
@@ -56,7 +61,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/990/x57_Lorv.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -68,6 +73,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -80,9 +86,22 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
+- name: Sidekiq
+  description: Simple, efficient background processing for Ruby
+  website_url: http://sidekiq.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/1078/4b7277462dadad85454ab427ce3f0ca7.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-11-17 14:16:40.000000000 Z
 - name: Capybara
   description: Acceptance test framework for web applications
   website_url: http://jnicklas.github.io/capybara/
@@ -93,7 +112,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2595/capybara.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -105,19 +124,34 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io
   detection_source: Repo Metadata
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/config/database.yml
+  detection_source: config/database.yml
+  last_updated_by: chetan.tete@cryptextechnologies.com
+  last_updated_on: 2017-11-16 12:17:37.000000000 Z
 - name: Puma
   description: A Modern, Concurrent Web Server for Ruby
   website_url: http://puma.io/
-  version: '3.7'
+  version: 5.0.0
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1055/favicon.png
-  detection_source_url: Gemfile
-  detection_source: config/puma.rb
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
+  detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
 - name: Rails Spring
@@ -129,6 +163,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Rails Testing
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -140,9 +175,22 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
+- name: Split
+  description: 'Split provides a unified solution for feature flags and experimentation '
+  website_url: http://www.split.io
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Feature Flags Management
+  image_url: https://img.stackshare.io/service/6588/default_2be28faff45ce2d9a308cf9c36820697303a7c11.jpg
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-06-23 16:37:50.000000000 Z
 - name: npm
   description: The package manager for JavaScript.
   website_url: https://www.npmjs.com/
@@ -151,9 +199,22 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/package.json
   detection_source: package.json
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
+- name: Buffer
+  description: The easiest way to schedule tweets, Facebook posts and more
+  website_url: https://bufferapp.com/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Social Media Tools
+  image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-11-09 05:54:30.000000000 Z
 - name: CarrierWave
   description: Classier solution for file uploads for Rails, Sinatra and other Ruby
     web frameworks
@@ -163,6 +224,7 @@ tools:
   category: Assets and Media
   sub_category: File Uploads
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
@@ -174,6 +236,7 @@ tools:
   category: Application Utilities
   sub_category: Customer Information API
   image_url: https://img.stackshare.io/service/3227/boQMtD4j_400x400.jpg
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-11-09 05:54:30.000000000 Z
@@ -186,6 +249,7 @@ tools:
   category: Support, Sales, and Marketing
   sub_category: Engagement/Lifecycle Marketing
   image_url: https://img.stackshare.io/service/255/default_d02a4b39f7d883e6212131540e656fd000d8d485.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
@@ -197,6 +261,7 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/config/environments/production.rb
   detection_source: config/environments/production.rb
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -209,6 +274,7 @@ tools:
   category: Application Utilities
   sub_category: Ruby Utilities
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-11-09 05:54:30.000000000 Z
@@ -221,18 +287,16 @@ tools:
   category: Application Utilities
   sub_category: User Management and Authentication
   image_url: https://img.stackshare.io/service/1432/devise.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
-- name: PonyDebugger
-  description: Remote network and data debugging for your native iOS app using Chrome
-    Developer Tools
-  website_url: https://github.com/square/PonyDebugger
-  open_source: true
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
   hosted_saas: false
-  category: Mobile
-  sub_category: Mobile Runtime Inspector
-  image_url: https://img.stackshare.io/service/729/Logo.png
+  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/package.json
   detection_source: package.json
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -244,9 +308,24 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chetan Tete
+  last_updated_on: 2023-11-17 14:13:10.000000000 Z
 - name: acts-as-taggable-on
   description: With ActsAsTaggableOn, you can tag a single model on several contexts,
     such as skills, interests, and awards
@@ -257,6 +336,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19310/default_328c11a8ee25b2bcdb614a295e29c3b1b00779cf.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-11-09 05:54:30.000000000 Z
@@ -269,6 +349,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -281,6 +362,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
@@ -294,7 +376,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18896/default_9386886dd1c6c396a11bd4b49732afb9ec444f8d.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -307,6 +389,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19074/default_2e9c033b6302a01627d902d2861bf6f4d9e4f39a.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
@@ -319,6 +402,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19134/default_302643c2b99caa1c440c0d4aa23d4230e1cc78e3.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Chetan Tete
   last_updated_on: 2023-10-27 10:29:15.000000000 Z
@@ -332,7 +416,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -347,7 +431,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -360,6 +444,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -373,7 +458,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -386,6 +471,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18901/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -398,6 +484,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -411,6 +498,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -423,6 +511,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19167/default_f74adb1c8d95c3268ea94f5ba9bbb60a0bc900ed.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -436,6 +525,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -450,7 +540,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: chetan.tete@cryptextechnologies.com
   last_updated_on: 2017-11-16 12:17:37.000000000 Z
@@ -464,17 +554,24 @@ tools:
 - name: async
   description: Higher-order functions and common patterns for asynchronous code
   package_url: https://www.npmjs.com/async
-  version: 0.2.10
+  version: 2.0.0
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/package.json
   detection_source: package.json
   last_updated_by: Chetan Tete
-  last_updated_on: 2023-06-23 16:37:50.000000000 Z
+  last_updated_on: 2023-11-17 14:26:35.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in async
+    cve_id: CVE-2021-43138
+    cve_url: https://github.com/advisories/GHSA-fwr7-v2mv-hh25
+    detected_date: Apr 13
+    severity: high
+    first_patched: 2.6.4
 - name: optimist
   description: Light-weight option parsing with an argv hash
   package_url: https://www.npmjs.com/optimist
@@ -485,7 +582,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16145/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/package.json
   detection_source: package.json
   last_updated_by: Chetan Tete
   last_updated_on: 2023-06-23 16:37:50.000000000 Z
@@ -499,7 +596,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/chetantete/chetantete.github.io/blob/master/package.json
   detection_source: package.json
   last_updated_by: Chetan Tete
   last_updated_on: 2023-06-23 16:37:50.000000000 Z
@@ -516,17 +613,3 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 2.68.0
-- name: split
-  description: Split a Text Stream into a Line Stream
-  package_url: https://www.npmjs.com/split
-  version: 0.3.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16847/default_9a5182350af29cb82b3344853e865051f508ac6c.png
-  detection_source_url: package.json
-  detection_source: package.json
-  last_updated_by: Chetan Tete
-  last_updated_on: 2023-06-23 16:37:50.000000000 Z
