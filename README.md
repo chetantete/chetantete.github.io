@@ -21,12 +21,14 @@ Here is short introduction about me:
 
 ### Academics:
 
-I completed, Information Technologies & Engineering graduation on May 2016 from Nagpur University. I am currently working at Cryptex Technologies Pvt Ltd, Nagpur from 21st March 2017.  
+I completed, Information Technologies & Engineering graduation on May 2016 from Nagpur University. I am currently working at Bacancy LLP as Lead Software Engineer.  
 
 ### Professional Skills:
 
   <ul>
     <li>Ruby On Rails</li>
+    <li>Rest API</li>
+    <li>GraphQL</li>
     <li>JavaScript</li>
     <li>jQuery</li>
     <li>AJAX</li>   
